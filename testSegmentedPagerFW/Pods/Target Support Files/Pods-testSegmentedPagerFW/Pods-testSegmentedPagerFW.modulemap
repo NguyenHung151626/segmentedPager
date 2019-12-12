@@ -1,0 +1,6 @@
+framework module Pods_testSegmentedPagerFW {
+  umbrella header "Pods-testSegmentedPagerFW-umbrella.h"
+
+  export *
+  module * { export * }
+}

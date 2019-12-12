@@ -7,12 +7,12 @@
 //
 
 import UIKit
+import MXParallaxHeader
 
 class CustomHeaderView: UIView {
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var label: UILabel!
-    
-    override init(frame: CGRect) {
+        override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }

@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomHeaderView" customModule="testSegmentedPagerFW" customModuleProvider="target">
             <connections>
-                <outlet property="contentView" destination="iN0-l3-epB" id="NMR-Lr-0nd"/>
-                <outlet property="label" destination="uMk-Cl-97V" id="kPN-Zk-aQj"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="9tb-oD-2RL"/>
+                <outlet property="label" destination="uMk-Cl-97V" id="Tz0-Gu-6f7"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -41,7 +41,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="uMk-Cl-97V" firstAttribute="leading" secondItem="Ozm-if-1oU" secondAttribute="trailing" constant="20" id="2Hc-FG-WuU"/>
                 <constraint firstItem="ocP-dG-SQj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="C3S-Kq-D0a"/>

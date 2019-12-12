@@ -23,11 +23,7 @@ class DetailMoreViewController: UIViewController, UITableViewDelegate, UITableVi
         print("view3")
         tableView.estimatedRowHeight = 70
         tableView.rowHeight = UITableView.automaticDimension
-    }
-
-
-    override func viewDidAppear(_ animated: Bool) {
-        print("view3 didAppear")
+        
         detailMoreViewModel.movieDetailSubject
             .asObserver()
             .map { movieDetail in

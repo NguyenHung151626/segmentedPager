@@ -20,6 +20,7 @@ class DetailCastViewController: UIViewController, UICollectionViewDataSource, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         //
+        print("view1")
         detailCastViewModel.movieDetailSubject
             .asObserver()
             .map { movieDetail in
@@ -52,6 +53,6 @@ class DetailCastViewController: UIViewController, UICollectionViewDataSource, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.width / 2, height: 200)
+        return CGSize(width: collectionView.frame.width / 2, height: collectionView.frame.height)
     }
 }
